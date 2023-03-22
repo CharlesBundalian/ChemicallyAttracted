@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chemically Attracted!</title>
+        <link rel="shortcut icon" href="https://img.freepik.com/free-icon/flask_318-495754.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="Game">
+            <div onclick="progress(); trapped(); dialogue()" id="BG">
+                <img src="Images/title.jpg" alt="" class="MBG">
+            </div>
+            <div id="textBox" onclick="progress(); trapped(); dialogue()">
+                <div class="container-fluid px-5">
+                    <p id="speaker">
+                    </p>
+                    <p class="text" id="text">
+                    </p>
+                </div>
+            </div>
+            <div class="regressA" id="regress" onclick="regress(); dialogue()">
+                <button class="btn btn-secondary">Go Back</button>
+            </div>
+            <div class="skipA" id="skip" onclick="skip(); dialogue()">
+                <button class="btn btn-secondary">Skip to Game</button>
+            </div>
+            <div id="optionA" onclick="zr1(); na1(); mol1(); lew1(); pri1(); imf1(); answered(); progress(); dialogue();">
+                <button id="option1" class="btn"></button>
+            </div>
+            <div id="optionB" onclick="zr2(); na2(); mol2(); lew2(); pri2(); imf2(); answered(); progress(); dialogue();">
+                <button id="option2" class="btn"></button>
+            </div>
+            <div id="optionC" onclick="zr3(); na3(); mol3(); lew3(); pri3(); imf3(); answered(); progress(); dialogue();">
+                <button id="option3" class="btn"></button>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <script src="script.js"></script>            
+        </div>
+    </body>
+</html>

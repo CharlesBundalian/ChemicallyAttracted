@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
+.MBG {
+    width: 100vw;
+    height: 100vh;
+    margin-top: -1rem;;
+    position: fixed;
+    
+}
+
+.GBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.BG {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: -1.5rem;
+}
+
+.TB {
+    background-color: rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    width: 100vw;
+    height: 30vh;
+    padding: 2rem;
+    position: absolute;
+    position: fixed;
+}
+
+.Ace {
+    background-color: rgb(214, 240, 255);
+    width: fit-content;
+    margin-top: -1.5em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    font-size: 5vh;
+    font-weight: bold;
+    color:rgb(6, 68, 125);
+}
+
+.Dop {
+    background-color: rgb(251, 214, 255);
+    width: fit-content;
+    margin-top: -1.5em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    font-size: 5vh;
+    font-weight: bold;
+    color:rgb(125, 6, 83);
+}
+
+.MJ {
+    background-color: rgb(216, 255, 199);
+    width: fit-content;
+    margin-top: -1.5em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    font-size: 5vh;
+    font-weight: bold;
+    color:rgb(8, 103, 5);
+}
+
+.Everyone {
+    background-color: rgb(237, 237, 237);
+    width: fit-content;
+    margin-top: -1.5em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    font-size: 5vh;
+    font-weight: bold;
+    color:rgb(73, 73, 73);
+}
+
+.text {
+    color: white;
+    font-size: 3.3vh;
+    margin-top: -2em;
+    font-weight: 500;
+    width: 80vw;
+    padding-top: 0.45em;
+    margin: auto;
+}
+
+.regressA {
+    position: absolute;
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+    opacity: 0;
+}
+
+.regress {
+    position: absolute;
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+    opacity: 0.5;
+}
+
+.skipA {
+    position: absolute;
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+    opacity: 0;
+}
+
+.skip {
+    position: absolute;
+    margin-top: -3.5rem;
+    margin-left: 7rem;
+    opacity: 0.5;
+}
+
+.bn1 {
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 13rem;
+    background-color: rgb(3, 137, 255);
+    color: white;
+    border-radius: 7px;
+    font-size: 29pt;
+    border: none;
+    padding: 0.5rem;
+}
+
+.bn2 {
+    position: absolute;
+    margin-top: -41rem;
+    margin-left: 13rem;
+    background-color: rgb(3, 137, 255);
+    color: white;
+    border-radius: 7px;
+    font-size: 29pt;
+    border: none;
+    padding: 0.5rem;
+}
+
+.bn3 {
+    position: absolute;
+    margin-top: -32rem;
+    margin-left: 13rem;
+    background-color: rgb(3, 137, 255);
+    color: white;
+    border-radius: 7px;
+    font-size: 29pt;
+    border: none;
+    padding: 0.5rem;
+}
+
+.bn4 {
+    position: absolute;
+    margin-top: -26rem;
+    margin-left: 13rem;
+    background-color: rgb(3, 137, 255);
+    color: white;
+    border-radius: 7px;
+    font-size: 29pt;
+    border: none;
+    padding: 0.5rem;
+}
+
+.score {
+    position: absolute;
+    font-size: x-large;
+    color: white;
+    margin-left: 45vw;
+    padding-top: 25vh;
+}
+
+.grid{
+    position: absolute;
+    padding-top: 25vh;
+    margin-left: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+}
